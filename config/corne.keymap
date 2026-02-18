@@ -12,6 +12,8 @@
 
 &kscan0 { wakeup-source; };
 
+&mt { tapping-term-ms = <300>; };
+
 / {
     /* 2. Custom behaviors: Define my soft-off behavior */
 
